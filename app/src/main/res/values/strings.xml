@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FoodStock</string>
+    <string name="left_button_text">Expiration View</string>
+    <string name="right_button_text">All Groceries View</string>
+</resources>
