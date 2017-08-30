@@ -17,7 +17,7 @@
         switch:leftButtonText="@string/left_button_text"
         switch:rightButtonText="@string/right_button_text"
         android:layout_marginBottom="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+        app:layout_constraintBottom_toTopOf="@+id/groceryRecyclerView"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
@@ -29,13 +29,16 @@
         android:layout_width="0dp"
         android:layout_height="495dp"
         android:layout_margin="15dp"
-        android:layout_marginLeft="15dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="8dp"
-        tools:layout_editor_absoluteY="42dp"
-        android:id="@+id/recyclerView" />
+        android:id="@+id/groceryRecyclerView"
+        app:layout_constraintTop_toTopOf="@+id/sliding_toggle_switch"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp" />
 
 </android.support.constraint.ConstraintLayout>
