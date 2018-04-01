@@ -1,0 +1,27 @@
+FoodStock
+
+Purpose
+
+Keep track of what groceries you have
+Warns you when they're going to expire soon.
+
+Gives you points for using groceries before they expire.
+
+
+Main Activity
+
+List of groceries you have by name.
+By expiration time left.
+
+RecyclerView
+    List of grocery items.
+    Each grocery item has name, expiration, and button to use.
+    Clicking on button removes from list and adds points.
+
+    Expired foods go to list of shame. Can be cleared by clicking its clear button.
+
+    Sort by option resets recycler view and resorts.
+
+    Menu displays current points, high score points.
+
+    
